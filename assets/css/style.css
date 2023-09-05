@@ -1,0 +1,333 @@
+:root {
+	--mainbg: #faae18;
+}
+* {
+	font-family: 'Poppins', sans-serif;
+  color: #fff;
+  box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+.mainrBg {
+  background: #aa0019;
+}
+.userProfile img {
+  width: 45px;
+  height: 45px;
+  border: 2px solid #aa0019;
+}
+.shadow-btn {
+  box-shadow: 0 0 5px #672012;
+}
+.menuBtn {
+  padding: 0;
+  width: 42px;
+  height: 42px;
+  color: #fadf81;
+  font-size: 26px;
+}
+.menuBtn i {
+  color: #fff;
+}
+/*.border-bottom {
+  border-bottom-color: #e26c26 !important;
+
+}*/
+.walletBtn {
+  background: #aa0019;
+  padding: 5px 10px;
+  font-size: 14px;
+  min-width: 110px;
+}
+.addIcon {
+  background: #000;
+  border-radius: 50%;
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.tambolaGame {
+  background: url('../img/tambolabg.avif') no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center;
+  background: linear-gradient(to bottom, #180014,#430003);
+}
+body {
+  background: #fff;
+}
+.tambolaGame::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  opacity: 0.3;
+}
+.tambolaGame {
+  position: relative;
+  z-index: 1;
+}
+.tambola-show {
+  background: rgba(0,0,0, 0.7);
+  border-radius: 5px;
+  padding: 30px;
+    padding-top: 30px;
+  padding-top: 20px;
+}
+.tambola-show h2 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 21px;
+}
+.tambola-show p {
+  font-size: 14px;
+  color: #ccc;
+}
+.allBtn {
+  background: #aa0019;
+  border: 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 5px 15px;
+  border-radius: 2px;
+}
+.title-block {
+  font-size: 32px;
+  font-weight: 800;
+  /*text-shadow: 0 3px 12px #000;*/
+  color: #ffc30c;
+}
+.header {
+  /*background: rgba(0,0,0, 0.7);*/padding-top: 10px;padding-bottom: 10px;
+}
+.title-block span {
+  font-family: 'Dancing Script', cursive;
+  color: #fff;
+}
+.title-block {
+  font-family: 'Josefin Sans', sans-serif;
+}
+.tambola-date::before {
+  content: "";
+  display: block;
+  width: 100%;
+  background: rgba(0,0,0, 0.7);
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transform: skew(31deg);
+  border: 0;
+    border-bottom-width: 0px;
+    border-bottom-style: none;
+    border-bottom-color: currentcolor;
+  border-bottom: 0;
+  background: #eaac08;
+  border-radius: 0px 0 0 0;
+}
+.tambola-date {
+  top: -18px;
+padding: 0 8px;
+color: #000;
+z-index: 1;
+right: 7px;
+font-size: 12px;
+}
+.live-btn::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: green;
+  position: absolute;
+  left: 5px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.live-btn {
+  background: #aa0019;
+  border: 0;
+  border-radius: 2px;
+  font-size: 11px;
+  padding: 2px 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  padding-left: 18px;
+}
+.timer {
+  font-size: 12px;
+  color: #aa0019;
+}
+.gametabBtn {
+  border: 0;
+  background: #f8b708f0;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 2px;
+  color: #000;
+}
+.gametabBtn-active {
+  color: #fff;
+  background: #aa0019;
+}
+.ticket-table tr td.ticket-book {
+  background: #090002;
+} 
+.ticket-table tr td {
+  min-width: 30px;
+  font-size: 14px;
+  padding: 7px 2px;
+}
+.ticket-radial {
+  background: #aa0019;
+  margin-bottom: 10px;
+  position: relative;
+  border-radius: 5px;
+}
+.ticket-radial::before, .ticket-radial::after, .ticket-radial-sub::before, .ticket-radial-sub::after {
+  color: ;
+  content: "";
+  display: block;
+  quotes: ;
+  width: 100%;
+  height: 15px;
+  position: absolute;
+  top: -4px;
+  background: radial-gradient(circle, transparent, transparent 41%, #aa0019 44%, #aa0019 100%) -7px -8px/10px 16px repeat-x;
+  left: 0;
+  border-radius: ;
+}
+.ticket-radial {
+  background: #aa0019;
+  margin-bottom: 10px;
+  position: relative;
+  border-radius: 0;
+  padding: 5px;
+}
+.ticket-table {
+  border-color: #684d51;
+}
+.ticket-radial::after {
+  top: inherit;
+  bottom: -4px;
+  transform: rotate(180deg);
+}
+.ticket-radial-sub {
+  padding: 8px;
+  background: #090002;
+  border-radius: 4px;
+}
+.ticket-table {
+  background: #aa00194a;
+}
+.ticket-radial-sub::before, .ticket-radial-sub::after {
+  top: 0;
+  transform: rotate(0deg);
+  left: -4px;
+  height: 100%;
+  width: 15px;
+  background: radial-gradient(circle, transparent, transparent 54%, #aa0019 67%, #aa0019 96%) -7px -8px/11px 11px repeat-y;
+  z-index: 111111;
+}
+.ticket-radial-sub::after {
+  left: auto;
+  right: 0;
+}
+.ticket-radial-sub::after {
+  left: auto;
+  right: -4px;
+  transform: rotate(180deg);
+}
+.history-table tr td {
+  padding: 5px 2px;
+  text-align: center;
+}
+.history-table tr td span {
+  background: #aa0019;
+  width: 32px;
+  display: flex;
+  text-align: center;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  font-size: 14px;
+  position: relative;
+  z-index: 1;
+}
+.circle-span {
+  background: #ffc30c !important;
+  color: #000;
+}
+.history-table tr td span.circle-span::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: #000;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+body {
+  background: url('https://img.freepik.com/premium-photo/technology-data-binary-code-network-conveying-connectivity_34629-785.jpg');
+  background-size: cover;
+  background-position: center;
+  /*background-blend-mode: overlay;
+  background-color: rgba(0,0,0, 0.5);*/
+}
+.tambola-show.border {
+  border-color: #eaac08 !important;
+}
+
+
+
+
+
+@media screen and (max-width:1366px) and (min-width: 768px) {
+  .tombola-container {
+    width: 456px;
+  }
+}
+
+@media screen and (max-width:766px) {
+  body {
+    background: linear-gradient(to bottom, #180014,#430003);
+  }
+  .tambolaGame {
+    background: transparent;padding: 0;
+  }
+.tambola-show h2 {
+  font-size: 16px;
+}
+.allBtn {font-size: 12px}
+.tambola-show {
+    padding: 15px;
+    padding-top: 10px;
+
+}
+.menuBtn {
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+}
+.userProfile img {
+  width: 30px;
+  height: 30px;
+}
+  .tambolaGame::before {display: none;}
+}
